@@ -1,0 +1,466 @@
+body
+{
+	background-image: url('cloud.jpg');
+	background-size: cover;
+	opacity: 0.9;
+	z-index: 1;
+}
+.flip-container
+{
+	perspective:1000;
+}
+.flip-container:hover .flipper , .flip-container.hover .flipper
+{
+	transform:rotateY(180deg);
+}
+.flip-container, .flip, .back
+{
+	width:300px;
+	height:300px;
+}
+.flipper
+{
+	transition:0.8s;
+	transform-style:perspective-3d;
+	position:relative;
+}
+.front , .back
+{
+	backface-visbility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.front
+{
+	z-index: 2;
+	transform: rotateY(0deg);
+}
+.back
+{
+	transform: rotateY(90deg);
+}
+.jumbotron
+{
+	
+	background-image : url('sky.gif');
+	width : 100%;
+	height: 550px;
+	margin-top: 5em;
+}
+
+.pull-left
+{
+	float:left;
+	display:inline;
+	margin-top: -4em;
+}
+.pull-right
+{
+
+	float: right;
+	display:inline;
+	margin-top: -4em;
+}
+.pull-right ul li a
+{
+	text-decoration: none;
+	color:#ffffff;
+
+}
+.pull-left ul li a
+{
+	text-decoration:none;
+	color:#ffffff;
+}
+.left-right .pull-left .pull-right
+{
+	background-color: black;
+	position: fixed;
+}
+header ul li
+{
+	display:inline;
+	list-style-type: "";
+	text-align: center;
+	padding:1em;
+	font-weight: bold;
+	font-family:'Shift', sans-serif;
+}
+.container
+{
+	width:50%;
+	height:250px;
+	border: 2px solid ;
+	border-radius: 10px;
+    border-color:white;
+	margin-top: -350px;
+	margin-left: 320px;
+}
+
+.container p
+{
+	color: #ffffff;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 3em;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+.container p:hover
+{
+	font-size: 4em;
+
+}
+.bottom
+{
+	float: right;
+	
+}
+.bottom tr td
+{
+	padding-left:20px;
+}
+
+.neighbourhood
+{
+	width:100%;
+	height:auto;
+	border-color: black;
+	margin:20px;
+	overflow: auto; 
+	
+}
+.neighbourhood .resident p
+{
+	color:#ffffff;
+    font-size:25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.neighbourhood .resident  h2
+{
+	color:#ffffff;
+    font-size:40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.neighbourhood table tr td img
+{
+	overflow: auto;
+	border-radius: 50%;
+
+
+}
+.footer
+{
+	color:white;
+	font-family:  Arial, Helvetica, sans-serif;
+} 
+
+#dot1
+{
+	width : 4px;
+	height : 4px;
+	margin-left: 30px;
+	position : relative;
+
+	-webkit-animation: m1 0.3s  infinite;
+	animation: m1 0.3s infinite ;
+
+}
+@-webkit-keyframes m1
+{
+	from{left :10px;}
+	to{left :1200px;}
+}
+
+
+#dot2
+{
+	width : 8px;
+	height : 8px;
+	margin-left: 20px;
+	position : relative;
+
+	-webkit-animation: m2 0.5s  infinite;
+	animation: m2 0.5s infinite ;
+
+}
+@-webkit-keyframes m2
+{
+	from{left :10px;}
+	to{left :1200px;}
+}
+
+#dot3
+{
+	width : 7px;
+	height : 7px;
+	margin-left: 40px;
+	position : relative;
+
+	-webkit-animation: m3 0.8s  infinite;
+	animation: m3 0.8s infinite ;
+
+}
+@-webkit-keyframes m3
+{
+	from{left :10px;}
+	to{left :1200px;}
+}
+
+#dot4
+{
+	width : 5px;
+	height : 5px;
+	margin-left: 30px;
+	position : relative;
+
+	-webkit-animation: m4 0.3s  infinite;
+	animation: m4 0.3s infinite ;
+
+}
+@-webkit-keyframes m4
+{
+	from{left :10px;}
+	to{left :1200px;}
+}
+
+#dot5
+{
+	width : 6px;
+	height : 6px;
+	margin-left: 50px;
+	position : relative;
+
+	-webkit-animation: m5 0.7s  infinite;
+	animation: m5 0.7s infinite ;
+
+}
+@-webkit-keyframes m5
+{
+	from{left :10px;}
+	to{left :1200px;}
+}
+
+#dot6
+{
+	width : 7px;
+	height : 7px;
+	margin-left: 30px;
+	position : relative;
+
+	-webkit-animation: m6 0.4s  infinite;
+	animation: m6 0.4s infinite ;
+
+}
+@-webkit-keyframes m6
+{
+	from{left :10px;}
+	to{left :1200px;}
+}
+
+#dot7
+{
+	width : 7px;
+	height : 7px;
+	margin-left: 100px;
+	position : relative;
+
+	-webkit-animation: m7 0.3s  infinite;
+	animation: m7 0.3s infinite ;
+
+}
+@-webkit-keyframes m7
+{
+	from{left :10px;}
+	to{left :1000px;}
+}
+#dot8
+{
+	width : 5px;
+	height : 5px;
+	margin-left: 55px;
+	position : relative;
+
+	-webkit-animation: m8 0.4s  infinite;
+	animation: m8 0.4s infinite ;
+
+}
+@-webkit-keyframes m8
+{
+	from{left :10px;}
+	to{left :1200px;}
+}
+
+#dot9
+{
+	width : 5px;
+	height : 5px;
+	margin-left: 10px;
+	position : relative;
+
+	-webkit-animation: m9 0.6s  infinite;
+	animation: m9 0.6s infinite ;
+
+}
+@-webkit-keyframes m9
+{
+	from{left :10px;}
+	to{left :1200px;}
+}
+
+#dot10
+{
+	width : 8px;
+	height : 8px;
+	margin-left: 80px;
+	position : relative;
+
+	-webkit-animation: m10 0.4s  infinite;
+	animation: m10 0.4s infinite ;
+
+}
+@-webkit-keyframes m10
+{
+	from{left :10px;}
+	to{left :1200px;}
+}
+
+#dot11
+{
+	width : 9px;
+	height : 9px;
+	margin-left: 15px;
+	position : relative;
+
+	-webkit-animation: m11 0.8s  infinite;
+	animation: m11 0.8s infinite ;
+
+}
+@-webkit-keyframes m11
+{
+	from{left :10px;}
+	to{left :1200px;}
+}
+#dot12
+{
+	width : 7px;
+	height : 7px;
+	margin-left: 3px;
+	position : relative;
+
+	-webkit-animation: m12 0.6s infinite;
+	animation: m12 0.6s infinite ;
+
+}
+@-webkit-keyframes m12
+{
+	from{left :10px;}
+	to{left :1200px;}
+}
+
+#dot13
+{
+	width : 8px;
+	height : 8px;
+	margin-left: 5px;
+	position : relative;
+
+	-webkit-animation: m13 0.6s  infinite;
+	animation: m13 0.6s infinite ;
+
+}
+@-webkit-keyframes m13
+{
+	from{left :10px;}
+	to{left :1200px;}
+}
+
+#dot14
+{
+	width : 6px;
+	height : 6px;
+	margin-left: 20px;
+	position : relative;
+
+	-webkit-animation: m14 0.5s  infinite;
+	animation: m14 0.5s infinite ;
+
+}
+@-webkit-keyframes m14
+{
+	from{left :10px;}
+	to{left :1200px;}
+}
+
+#dot15
+{
+	width : 3px;
+	height : 3px;
+	margin-left: 100px;
+	position : relative;
+
+	-webkit-animation: m15 0.4s  infinite;
+	animation: m15 0.4s infinite ;
+
+}
+@-webkit-keyframes m15
+{
+	from{left :10px;}
+	to{left :1200px;}
+}
+
+#dot15
+{
+	width : 5px;
+	height : 5px;
+	margin-left: 14px;
+	position : relative;
+
+	-webkit-animation: m16 0.8s  infinite;
+	animation: m16 0.8s infinite ;
+
+}
+@-webkit-keyframes m16
+{
+	from{left :10px;}
+	to{left :1200px;}
+}
+
+#dot17
+{
+	width : 5px;
+	height : 5px;
+	margin-left: 25px;
+	position : relative;
+
+	-webkit-animation: m17 0.5s  infinite;
+	animation: m17 0.5s infinite ;
+
+}
+@-webkit-keyframes m17
+{
+	from{left :10px;}
+	to{left :1200px;}
+}
+
+#dot18
+{
+	width : 5px;
+	height : 5px;
+	margin-left: 10px;
+	position : relative;
+
+	-webkit-animation: m18 0.4s  infinite;
+	animation: m18 0.4s infinite ;
+
+}
+@-webkit-keyframes m18
+{
+	from{left :10px;}
+	to{left :1200px;}
+}
+
